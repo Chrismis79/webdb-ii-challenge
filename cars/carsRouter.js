@@ -13,3 +13,5 @@ router.get('/', (req, res) => {
             res.status(500).json({message: "Error fetching list of cars."})
         });
 });
+
+module.exports = router;
